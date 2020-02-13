@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #eee;
+    height: auto;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.section-title {
+    text-decoration: underline;
+}
+
+/*-- Intro Section --*/
+
+#landing {
+    height: 100vh;
+    background-image: url(../images/img9.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#landing-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 40vw;
+    height: 100vh;
+}
+
+#landing-text h2 {
+    color:  white;
+}
+
+
+.landing-btn {
+    padding: 0.5rem 2rem;
+    border: 1px white solid;
+    display: inline-block;
+    color: white;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+/*-- Intro Section --*/
+
+#intro {
+    height: 80vh;
+    background-image: url(../images/img2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#intro-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    padding: 1rem;
+}
+
+/* -- Work Section --*/
+
+#images {
+    text-align: center;
+}
+
+/*-- Footer Section --*/
+
+footer {
+    text-align: center;
+}
+
+.ig-icon {
+    margin: 2rem;
+    color: black;
+}
