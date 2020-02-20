@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500i,700&display=swap');
+
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -8,32 +10,65 @@ body {
 
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    margin: 0;
-}
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: 0;
-}
 
 img {
     display: block;
     width: 100%;
 }
 
-.section-title {
-    text-decoration: underline;
+.instagram-icon {
+    margin: 1rem;
 }
 
-/*-- Intro Section --*/
+.email-link {
+    text-decoration: underline;
+    color: black;
+}
+
+/*---------------------------- Navbar ---------------------*/
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    display: none;
+    letter-spacing: .2rem;
+}
+
+.item.active {
+    display: block;
+}
+
+.toggle {
+    flex: 1;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------------------- Landing Page Section ------------------------*/
 
 #landing {
     height: 100vh;
-    background-image: url(../images/img9.jpeg);
+    background-image: 
+        linear-gradient(
+            rgba(0 ,0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/img4.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,50 +77,69 @@ img {
 
 #landing-text {
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    flex: 0 1 40vw;
+    text-align: center;
     height: 100vh;
+    flex: 0 1 40vw;
 }
-
-#landing-text h2 {
-    color:  white;
-}
-
 
 .landing-btn {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
     border: 1px white solid;
     display: inline-block;
     color: white;
     margin-top: 2rem;
     text-decoration: none;
+    letter-spacing: .1rem;
 }
 
-/*-- Intro Section --*/
+.site-title {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1rem;
 
-#intro {
-    height: 80vh;
-    background-image: url(../images/img2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
 }
 
-#intro-text {
-    display: flex;
+.secondary-title {
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .2rem;
+}
+
+/*---------------------------------- Intro Section ----------------------*/
+
+#about-section {
     text-align: center;
-    align-items: center;
-    height: 90vh;
+}
+
+#about-text {
     padding: 1rem;
 }
 
-/* -- Work Section --*/
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1rem;
+}
+
+/* --------------------------- Work Section -----------------------------*/
 
 #images {
     text-align: center;
+}
+
+.section-title {
+    text-decoration: underline;
 }
 
 /*-- Footer Section --*/
