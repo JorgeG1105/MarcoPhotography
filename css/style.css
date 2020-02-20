@@ -96,16 +96,16 @@ ul a {
     margin-top: 2rem;
     text-decoration: none;
     letter-spacing: .1rem;
+    font-size: 2.2rem;
 }
 
 .site-title {
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
-    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1rem;
-
+    text-align: center;
 }
 
 .secondary-title {
@@ -154,4 +154,17 @@ footer {
 .ig-icon {
     margin: 2rem;
     color: black;
+}
+
+/*------------------------------ Footer ---------------------------------*/
+.footer-links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
 }
