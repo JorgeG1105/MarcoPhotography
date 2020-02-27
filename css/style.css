@@ -89,14 +89,13 @@ ul a {
 
 .landing-btn {
     padding: 0.5rem 1rem;
-    margin: 0.5rem 1rem;
+    margin: 2rem 1rem 0 1rem;
     border: 1px white solid;
     display: inline-block;
     color: white;
-    margin-top: 2rem;
     text-decoration: none;
     letter-spacing: .1rem;
-    font-size: 2.2rem;
+    font-size: 1.1rem;
 }
 
 .site-title {
@@ -135,28 +134,20 @@ ul a {
     letter-spacing: 1rem;
 }
 
-/* --------------------------- Work Section -----------------------------*/
 
-#images {
-    text-align: center;
-}
 
-.section-title {
-    text-decoration: underline;
-}
+/*-----------------------------Images sections---------------------------*/
 
-/*-- Footer Section --*/
+
+
+
+/*------------------------------ Footer ---------------------------------*/
 
 footer {
     text-align: center;
 }
 
-.ig-icon {
-    margin: 2rem;
-    color: black;
-}
 
-/*------------------------------ Footer ---------------------------------*/
 .footer-links {
     display: flex;
     flex-direction: column;
@@ -167,4 +158,9 @@ footer {
     text-decoration: none;
     color: black;
     margin: 1rem;
+}
+
+.ig-icon {
+    margin: 2rem;
+    color: black;
 }
