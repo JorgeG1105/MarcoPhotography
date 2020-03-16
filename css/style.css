@@ -159,6 +159,32 @@ ul a {
 
 
 
+
+
+/*-----------------------------Contact Form------------------------------*/
+
+#contact-container {
+    padding: 1rem;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.submit-btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .5rem;
+    padding: .5rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+ 
 /*------------------------------ Footer ---------------------------------*/
 
 footer {
