@@ -32,16 +32,21 @@ img {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1rem;
     text-align: center;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .secondary-page-title {
     font-size: 1rem;
     font-weight: 400;
-    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .2rem;
+    text-align: center;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
+.no-display {
+    display: none;
+}
 
 /*---------------------------- Navbar ---------------------*/
 ul {
@@ -150,15 +155,8 @@ ul a {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1rem;
+    text-align: center;
 }
-
-
-
-/*-----------------------------Images sections---------------------------*/
-
-
-
-
 
 
 /*-----------------------------Contact Form------------------------------*/
@@ -207,4 +205,93 @@ footer {
 .ig-icon {
     margin: 2rem;
     color: black;
+}
+
+
+/*---------------------------Media Queries----------------------*/
+
+@media(min-width: 1024px){
+
+    .no-display{
+        display: initial;
+    }
+
+    /*------Navbar-----*/
+    .toggle {
+        display: none;
+    }
+
+    .menu {
+        flex-direction: row;
+        flex-wrap: initial;
+    }
+
+    .item {
+        display: inline;
+        font-size: 1rem;
+    }
+
+    /*----About Section----*/
+    .about-title {
+        display: inherit;
+    }
+
+    #about-section {
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: initial;
+    }
+
+    /*-----Portraits-----*/
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+    .img-slides {
+        display: none;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 3rem;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
 }
