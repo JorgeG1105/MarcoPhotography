@@ -144,7 +144,7 @@ ul a {
     text-align: center;
 }
 
-#about-text {
+.about-text {
     padding: 1rem;
 }
 
@@ -246,6 +246,10 @@ footer {
         height: 429.5px;
     }
 
+    .about-text {
+        text-align: justify;
+    }
+
     /*-----Portraits-----*/
     .images-container {
         display: flex;
@@ -253,6 +257,7 @@ footer {
         flex-direction: row;
         align-items: center;
         margin: 2rem;
+        justify-content: center;
     }
 
     /*---Contact----*/
