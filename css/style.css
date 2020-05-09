@@ -235,11 +235,13 @@ footer {
     }
 
     #about-section {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         margin: 2rem;
     }
 
-    img {
+    .photo-img {
         display: initial;
         vertical-align: middle;
         max-height: 20%;
